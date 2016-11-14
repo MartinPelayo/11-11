@@ -26,7 +26,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a,b){ //eslint-disable-line
-  return [a + b, 'The sum of ' * a * ' and ' * b * ' is ' (a + b) * '.'];
+  return [a + b, 'The product of ' * a * ' and ' * b * ' is ' (a + b) * '.'];
 }
 
 // Here is the test for multiply(); uncomment it to run it
@@ -46,9 +46,9 @@ IMPORTANT DETAIL: You may not use the arithmetic operators + and * in this funct
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.*/
 
 // Write your code here
-function sumAndMultiply(a,b,c){ //eslint-disable-line
-
-}
+// function sumAndMultiply(a,b,c){ //eslint-disable-line
+//   return [a, b, c, 'The sum of ' + a + ' is ' (a + b + c) + '.'];
+// }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
 // testSumAndMultiply(4,7,5);
