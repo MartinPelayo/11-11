@@ -15,6 +15,8 @@ function sum(a,b) {//eslint-disable-line
   return [total, string];
 }
 
+// HAD SOME CRAZY MERGE CONFLICTS AROUND HERE...
+
 // Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
 
@@ -29,13 +31,13 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-  function multiply(a,b){ //eslint-disable-line
-    var total = a * b;
-    var string = 'The product of ' + a + ' and ' + b + ' is ' + total + '.';
+function multiply(a,b){ //eslint-disable-line
+  var total = a * b;
+  var string = 'The product of ' + a + ' and ' + b + ' is ' + total + '.';
 
-    return[total, string];
+  return[total, string];
 
-  }
+}
 
 // Here is the test for multiply(); uncomment it to run it
 testMultiply(5,9);
