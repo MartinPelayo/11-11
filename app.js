@@ -15,7 +15,7 @@ function sum(a,b) {//eslint-disable-line
   return [total, string];
 }
 
-// HAD SOME CRAZY MERGE CONFLICTS AROUND HERE...
+//merge conflits for days...
 
 // Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
@@ -71,6 +71,7 @@ function sumAndMultiply(a,b,c){ //eslint-disable-line
 
 }
 
+
 // Here is the test for sumAndMultiply(); uncomment it to run it
 testSumAndMultiply(4,7,5);
 
@@ -87,14 +88,26 @@ IMPORTANT DETAIL: You may not use the arithmetic operator + in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
 // Write your code here
-// var testArray = [2,3,4]; //eslint-disable-line
+var testArray = [2,3,4]; //eslint-disable-line
 
-// function sumArray(testArray){ //eslint-disable-line
-// }
+function sumArray(testArray){ //eslint-disable-line
+  var total = 0;
+  var string = '';
+
+  for (var i = 0; i < testArray.length; i++){
+    total = sum(total, testArray[i])[0];
+    if (i > 0) string += ',';
+    string += testArray[i];
+  }
+  string += ' was passed in as an array of numbers, and ' + total + ' is their sum.';
+
+
+  return[total,string];
+}
 
 // Here is the test for sumArray(); uncomment it to run it
 
-// testSumArray(testArray);
+testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
