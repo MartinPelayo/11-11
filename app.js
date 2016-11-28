@@ -15,7 +15,7 @@ function sum(a,b) {//eslint-disable-line
   return [total, string];
 }
 
-
+//merge conflits for days...
 
 // Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
@@ -122,9 +122,9 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
-function multiplyArray(testArray){ //eslint-disable-line
 
-}
+// function multiplyArray(testArray){ //eslint-disable-line
+// }
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyArray(2,3,4);
